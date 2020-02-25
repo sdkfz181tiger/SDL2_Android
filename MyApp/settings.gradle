@@ -1,0 +1,11 @@
+include ':app'
+rootProject.name='MyApp'
+
+gradle.ext.buildToolsVersion = '28.0.3'
+gradle.ext.sdkVersion = 28
+gradle.ext.minSdkVersion = 24
+gradle.ext.targetSdkVersion = 28
+gradle.ext.libDistributionRoot = '../distribution'
+
+gradle.ext.versionCode = 14
+gradle.ext.versionName = '0.1.4'

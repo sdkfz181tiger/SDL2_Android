@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IYAVADER</string>
+    <string name="btn_launch">Launch</string>
+    <!-- Device -->
+    <string name="device_test">xxx</string>
+    <!-- AdMob -->
+    <string name="admob_application_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_ad_unit_id_banner">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
