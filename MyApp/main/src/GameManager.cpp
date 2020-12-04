@@ -30,12 +30,12 @@ bool GameManager::init() {
 
 	// Create an application window with the following settings:
 	window = SDL_CreateWindow(
-			"Hello, SDL2!!",         // window title
+			"Hello, SDL2!!",       // window title
 			SDL_WINDOWPOS_UNDEFINED, // initial x position
 			SDL_WINDOWPOS_UNDEFINED, // initial y position
 			480,                     // width, in pixels
 			320,                     // height, in pixels
-			SDL_WINDOW_OPENGL        // flags - see below
+			SDL_WINDOW_OPENGL     // flags - see below
 	);
 	if (window == nullptr) {
 		SDL_LogError(SDL_LOG_CATEGORY_APPLICATION,
